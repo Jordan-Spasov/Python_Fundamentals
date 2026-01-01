@@ -1,28 +1,22 @@
-p_one = '01.Potato'
-p_two = '02.Fish'
-p_three = '03.Apple'
+# First solution
 
-voice_msg = 'Menu: Dial only one digit: 1 - Create Order: '
-print(voice_msg)
+'''user_input = input()
 
-user_input = int(input())
+if len(user_input) == 3 and user_input.isdigit():
+    print('Input accepted')
+else:
+    print('Invalid number of characters in the input: must be 3')
+    print('Input must contain digits only!')'''
 
-print(f'Here are our products: {p_one}, {p_two}, {p_three}')
+# Second solution
 
-p_code = input('Enter the 2 digit product code to add it to the order:')
-print(f'Product with code: {p_one} was added to the order')
+"""print('Please enter a 3 digit code. All characters must be digits')
 
-p_code2 = int(input('Enter the 2-digit product code to add it to the order:'))
-print(f'Product with code: {p_two} was added to the order')
+input_ = input()
 
-p_code3 = input('Enter the 2-digit product code to add it to the order:')
-print(f'Product with code: {p_three} was added to the order')
-
-print()
-
-thanks_var = 'Thank you for using our program!'
-print(thanks_var)
-summary_var = 'Summary of your interaction:'
-print(summary_var)
-
-print(f'Orders: 1 order containing {p_code}, {p_code2}, {p_code3}')
+if len(input_) != 3:
+    print('Invalid number of characters in the input: must be 3')
+elif input_.isdigit():
+    print('Input accepted')
+else:
+    print('Input must contain digits only!')"""
